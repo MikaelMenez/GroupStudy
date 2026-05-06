@@ -1,0 +1,36 @@
+# Métricas 
+- Potência dos usuarios em redes móveis
+- Vazão da rede(throughput)
+  - medida em bit/s 
+  - quantidade de tŕafico de dados que é capaz de viajar a partir da largura de banda total, dado fatores externos
+- eficiência energética
+  - o quanto a técnica de alocação de recursos pode gerar de economia ou gasto de energia
+- probabilidade de bloqueio
+  - a taxa de probabilidadede uma requisição ser bloqueada por uma rede 
+- eficiência espectral
+  - medida em bits/s/Hz 
+  - quantidade de informação que consigo enviar por unidade de largura de banda (Hz)
+- relação sinal ruído(SNR)
+  - Potência do sinal/Potência do ruído (linear) / 10 * log(Potência do sinal/Potência do ruído) (escala logarítimica)
+  - é a razão entre a potência do sinal e a potência do ruído
+  - pode ser escrita em escala linear ou logarítimica(dB)
+  - diretamente relacionada com as métricas : BER(taxa de erro de bit),PER(taxa de perda de bit), Capacidade do canal
+- Capacidade de canal/rede 
+  - c(bits/s)= BW(Hz/largura de banda) * log_2(1+SNR)
+- Equidade
+- Qualidade de experiência do usuário
+- métricas de qualidade de serviço
+  - atrasos, taxa de transmissão contratada, jitter. Usado para avaliar se a operadora está cumprindo o acordo no SLA
+- Atraso e jitter (latência)
+  - RTT ( round trip time ): atraso de ida e volta entre cliente e servidor, inclui atraso de propagação(tempo para chegar no servidor e voltar), atraso de transmissão(tempo de transmitir a informação, depende do tamanho da informação e vazão da rede), atraso de processamento(tempo para processar a informação) e atraso de fila (tempo que demora pra sua requisição ser atendida) 
+  - TTS(Time-to-service)
+  - alguns desses tempos dependem fortemente do tráfego(carga) da rede 
+  - Comando Traceroute
+  - Jitter é a variação do atraso. A sua unidade é uma unidade de tempo
+- Balanceamento de carga na rede 
+  - usado para distribuir entidades de forma balanceada na rede 
+  - uma entidade pode ser carga de tráfego, requisições em uma fila de processamento(cpu,db,servidor,web,etc)
+  - há diversas técnicas , como o round robin
+# Outros 
+- half-duplex(só um fala por vez)
+- full-duplex(os dois conseguem falar ao mesmo tempo)
