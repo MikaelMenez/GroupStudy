@@ -40,3 +40,9 @@ a distância será sempre maior ou igual a 0, a distância de um pixel para ele 
 é similar a uma matriz comum, mas sua multiplicação é diferente, multiplicamos a11*b11, a12*b12, ...
 em pdi representamos imagens como arranjos matriciais, trabalhamos com ela termo a termo, só podemos operar termo a termo se tivermos arranjos estritramente do mesmo tamanho
 
+
+# Transformações de intensidade e filtragem espacial 
+
+## Domínio do espaço 
+a saída do processo é g, tal que g(x,y)=T[f(x,y) ], onde f é a imagem de entrada, T é o operador em f definido em uma vizinhança do ponto 
+## Domínio da frequência
