@@ -1,7 +1,8 @@
-Instruções privilegiadas, são definidas e só podem funcionar se o Mode bit for 1, funcionando em modo privilegiado, se o bit for 0, roda em modo restrito.
 
-# Interrupções 
-é um sinal enviado pela cpu para avisar que um evento ocorreu , ele ele acessa uma região de memória e normalmente é o sistema operacional que tem o acesso privilegiado, o modo kernel e o modo de usuário é para os demais programas , 
+# Privilégio
+Instruções privilegiadas, são definidas e só podem funcionar se o Mode bit for 1, funcionando em modo privilegiado, se o bit for 0, roda em modo restrito.
+##Interrupção
+a Interrupção é um sinal enviado pela cpu para avisar que um evento ocorreu , ele ele acessa uma região de memória e normalmente é o sistema operacional que tem o acesso privilegiado, o modo kernel e o modo de usuário é para os demais programas , 
 
 ## Ações das Interrupções 
 - faz o processo pausar, 
