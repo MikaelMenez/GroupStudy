@@ -29,7 +29,10 @@ Arquitetura de camadas
   - protocolos
 
 ## Camada de aplicação
-
+- os protocolos da camada de aplicação definem:
+  - os tipos de mensagens trocadas 
+  - a sintaxe dos vários tipos de mensagens 
+  - a semântica
 
 ### Arquiteturas cliente 
 quem inicia a conexão é o cliente, quem espera a conexão é o servidor 
@@ -63,4 +66,7 @@ ao desenvolver uma aplicação, uma das primeiras decisões é a escolha do prot
   - serviço confiável de transporte
     - os processos comunicantes podem contar com o tcp para a entrega de todos os dados enviados sem erro e na ordem certa 
   - também faz controle de congestionamento 
-- UDP ()
+- UDP (User datagram protocol )
+  - serviço não orientado a conexão
+    - o udp prevê um serviço não confiável de troca de dados, ou seja quando um usuário manda uma mensagem para um socket udp, não há garantia de que a mensagem chegará ao processo receptor 
+  - o udp não faz controle de congestionamento
