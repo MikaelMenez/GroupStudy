@@ -14,6 +14,7 @@ no espaço de endereçamento temos algumas subdivisões
   - tamanho variável
   - uma pilha que é manipulada e usada para lidar com chamadas de função e mudança de escopo e lida com variáveis comuns
 
+ > [!IMPORTANT] ****PCB(processo control block)**** é justamente o que armazena esse contexto
 ## Ciclo de vida 
 
 - novo
